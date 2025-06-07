@@ -1,0 +1,13 @@
+img {
+  /* percentage is responsive */
+ width:33%; 
+  /* pixels is a fixed unit */
+  height: 250px;
+  object-fit: cover;
+   transition: 1s;
+}
+
+img:hover {
+  height: 300px;
+  transition: 1s;
+}
